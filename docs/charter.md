@@ -1,7 +1,6 @@
 ### **Project Charter**
 
 
-
 #### **Project Title: Search Sustainability — Detecting Energy-Intensive Queries**
 
 #### **Owner: Nupur Thakre**
@@ -12,7 +11,6 @@
 Google's commitment to being carbon-free by 2030 requires understanding and optimizing the energy consumption of its core products. A key challenge is identifying which user query patterns and system behaviors drive disproportionate energy usage and then developing solutions to reduce this carbon footprint without degrading the user experience.
 
 
-
 ###### **Goals**
 
 • Quantify a baseline for energy consumption per query, categorizing by query type (e.g., text, image, video).
@@ -20,12 +18,10 @@ Google's commitment to being carbon-free by 2030 requires understanding and opti
 • Propose 3 feasible, data-backed strategic fixes (e.g., improved caching, bot traffic throttling, autocomplete optimization).
 
 
-
 ###### **Scope**
 
 **In Scope:** Analyzing publicly available datasets related to search trends (Google Trends, Wikipedia logs, Kaggle data) to simulate and model energy consumption per query. The project will include data cleaning, SQL modeling, exploratory data analysis, and the creation of a dashboard to visualize insights and potential savings.
 **Out of Scope:** Accessing or using any internal Google proprietary data, live user data, or production code. The project will not involve implementing or deploying any proposed fixes within a live system.
-
 
 
 ###### **Success Metrics (KPIs)**
@@ -37,7 +33,6 @@ Google's commitment to being carbon-free by 2030 requires understanding and opti
 • **Delivery:** Final recommendations and dashboard will be delivered within 4 weeks
 
 
-
 ###### **Data Sources**
 
 • Google Trends: Publicly accessible search interest data (via website).
@@ -46,14 +41,12 @@ Google's commitment to being carbon-free by 2030 requires understanding and opti
 • Open Energy Benchmarks: Public reports from data center organizations or research papers on server power usage and PUE (Power Usage Effectiveness) values (research via Google Scholar or industry reports).
 
 
-
 ###### **Assumptions**
 
 • **Server Power:** Baseline per-query consumption assumed at 0.0003 kWh (per published research).
 • **PUE (Power Usage Effectiveness):** An assumed PUE value for a typical data center, such as 1.1, to account for overhead power consumption.
 • **Carbon Intensity:** Regional average of 0.3 kg CO₂/kWh for converting energy savings into carbon reductions.
 • **Data Proxies:** Wikipedia traffic and other public datasets are valid proxies for search interest and behavior.
-
 
 
 ###### **Timeline / Milestones**
