@@ -1,20 +1,24 @@
-### **Project Charter**
+# **Project Charter**
 
 
 
-#### **Project Title: Search Sustainability — Detecting Energy-Intensive Queries**
+## **Project Title: Search Sustainability — Detecting Energy-Intensive Queries**
 
-#### **Owner: Nupur Thakre**
+## **Owner: Nupur Thakre**
 
 
 
-**Problem Statement**
+
+
+#### **Problem Statement**
+
 Google's commitment to being carbon-free by 2030 requires understanding and optimizing the energy consumption of its core products. A key challenge is identifying which user query patterns and system behaviors drive disproportionate energy usage and then developing solutions to reduce this carbon footprint without degrading the user experience.
 
 
 
 
-###### **Goals**
+
+#### **Goals**
 
 • Quantify a baseline for energy consumption per query, categorizing by query type (e.g., text, image, video).
 
@@ -25,7 +29,8 @@ Google's commitment to being carbon-free by 2030 requires understanding and opti
 
 
 
-###### **Scope**
+
+#### **Scope**
 
 **In Scope:** Analyzing publicly available datasets related to search trends (Google Trends, Wikipedia logs, Kaggle data) to simulate and model energy consumption per query. The project will include data cleaning, SQL modeling, exploratory data analysis, and the creation of a dashboard to visualize insights and potential savings.
 
@@ -34,7 +39,8 @@ Google's commitment to being carbon-free by 2030 requires understanding and opti
 
 
 
-###### **Success Metrics (KPIs)**
+
+#### **Success Metrics (KPIs)**
 
 • **Energy Model Accuracy:** Model approximates relative energy cost of query types within ±10% of benchmark assumptions.
 
@@ -49,7 +55,8 @@ Google's commitment to being carbon-free by 2030 requires understanding and opti
 
 
 
-###### **Data Sources**
+
+#### **Data Sources**
 
 • Google Trends: Publicly accessible search interest data (via website).
 
@@ -62,7 +69,8 @@ Google's commitment to being carbon-free by 2030 requires understanding and opti
 
 
 
-###### **Assumptions**
+
+#### **Assumptions**
 
 • **Server Power:** Baseline per-query consumption assumed at 0.0003 kWh (per published research).
 
@@ -75,7 +83,8 @@ Google's commitment to being carbon-free by 2030 requires understanding and opti
 
 
 
-###### **Timeline / Milestones**
+
+#### **Timeline / Milestones**
 
 • **Part 1:** Project Charter + Cleaned Dataset + Initial Hypotheses. This includes drafting and committing the charter, collecting and cleaning initial datasets, and performing initial analysis to form hypotheses.
 
