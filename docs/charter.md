@@ -13,6 +13,7 @@ Google's commitment to being carbon-free by 2030 requires understanding and opti
 
 
 
+
 ###### **Goals**
 
 • Quantify a baseline for energy consumption per query, categorizing by query type (e.g., text, image, video).
@@ -23,11 +24,13 @@ Google's commitment to being carbon-free by 2030 requires understanding and opti
 
 
 
+
 ###### **Scope**
 
 **In Scope:** Analyzing publicly available datasets related to search trends (Google Trends, Wikipedia logs, Kaggle data) to simulate and model energy consumption per query. The project will include data cleaning, SQL modeling, exploratory data analysis, and the creation of a dashboard to visualize insights and potential savings.
 
 **Out of Scope:** Accessing or using any internal Google proprietary data, live user data, or production code. The project will not involve implementing or deploying any proposed fixes within a live system.
+
 
 
 
@@ -45,6 +48,7 @@ Google's commitment to being carbon-free by 2030 requires understanding and opti
 
 
 
+
 ###### **Data Sources**
 
 • Google Trends: Publicly accessible search interest data (via website).
@@ -57,6 +61,7 @@ Google's commitment to being carbon-free by 2030 requires understanding and opti
 
 
 
+
 ###### **Assumptions**
 
 • **Server Power:** Baseline per-query consumption assumed at 0.0003 kWh (per published research).
@@ -66,6 +71,7 @@ Google's commitment to being carbon-free by 2030 requires understanding and opti
 • **Carbon Intensity:** Regional average of 0.3 kg CO₂/kWh for converting energy savings into carbon reductions.
 
 • **Data Proxies:** Wikipedia traffic and other public datasets are valid proxies for search interest and behavior.
+
 
 
 
