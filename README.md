@@ -7,7 +7,8 @@
 
 ## Repository Structure
 
-```search-sustainability/  
+```
+search-sustainability/  
 ├── data/  
 │ └── wikimedia_pageviews_sample.csv # 15-row sanitized sample  
 ├── docs/  
