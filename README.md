@@ -9,16 +9,27 @@
 ## Repository Structure
 
 search-sustainability/
+
 ├── data/
+
 │ └── wikimedia_pageviews_sample.csv # 15-row sanitized sample
+
 ├── docs/
+
 │ ├── assumptions.md 
+
 │ ├── charter.md # project charter
+
 │ └── data_inventory.md # datasets overview
+
 ├── notebooks/
+
 │ └── eda_notebook.ipynb # exploratory data analysis
+
 ├── scripts/
+
 │ └── fetch_wikimedia_pageviews.py # fetch pageviews from Wikimedia API
+
 └── README.md
 
 
@@ -30,6 +41,7 @@ search-sustainability/
 
 ```bash
 python scripts/fetch_wikimedia_pageviews.py
+```
 
 
 
