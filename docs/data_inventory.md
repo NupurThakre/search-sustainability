@@ -13,7 +13,7 @@
 ## Dataset: MS MARCO Queries Dev (Sample)
 
 - **File (working, local):** data/msmarco_queries_sample_sanitized.csv  
-- **Showcase (committed):** data/msmarco_queries_showcase.csv  
+- **Showcase (committed):** data/msmarco_queries_showcase.csv  --  Tiny 15-row subset of sanitized MS MARCO queries.
 - **Source:** Retrieved using Python script (kaggle/huggingface downloader).  
 - **Provenance:** Derived from the "ms-marco-queries-dev" dataset (Kaggle slug: `manupande21111997/ms-marco-queries-dev`).  
 - **License:** MIT (see docs/licenses/msmarco_kaggle_license.txt)  
@@ -37,7 +37,7 @@
 
 ## Wikimedia — Pageviews (1 month)
 - **File (local full):** data/wikimedia_pageviews_1month.csv  (DO NOT COMMIT: full raw dataset)
-- **Showcase (committed):** data/wikimedia_pageviews_sample.csv
+- **Showcase (committed):** data/wikimedia_pageviews_sample.csv    15-row sample of daily pageview counts (Aug 2025). Source: Wikimedia REST API.
 - **Source:** Wikimedia Pageviews REST API (script: `scripts/fetch_wikimedia_pageviews.py`)  
 - **Period:** 2025-08-01 → 2025-08-31  
 - **SHA256 checksum (showcase):** E85ADAF01D0C892CA96C20AAA6AC6B1477043F413413C4A3CD7301D6E24A799A  
@@ -45,7 +45,7 @@
 
 ## Google Trends — Top keywords / timeseries
 - **File (local full):** data/google_trends_timeseries.parquet / data/google_trends_top50.csv (local)  
-- **Showcase (committed):** data/google_trends_sample.csv  
+- **Showcase (committed):** data/google_trends_sample.csv     15-row sample of top search queries. Source: Google Trends (via pytrends).
 - **Source & script:** `scripts/fetch_google_trends_top50.py` (pytrends)  
 - **Period:** 2025-08-01 → 2025-08-31  
 - **SHA256 checksum (showcase):** 72D5F99EC1174073C8961C053770BFBFE2193FC55E7C742C1C9CAF9A72D4F5DE  
