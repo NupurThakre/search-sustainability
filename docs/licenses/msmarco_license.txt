@@ -1,0 +1,11 @@
+MS MARCO Queries Dev Dataset License
+
+Source: Downloaded via Python script (see docs/data_inventory.md for details).
+The script retrieved the "ms-marco-queries-dev" dataset, which is distributed under the MIT License.
+
+License: MIT
+Full text: https://www.mit.edu/~amini/LICENSE.md
+
+Note:
+The original MS MARCO dataset (https://microsoft.github.io/msmarco/) is under the Microsoft Research License Agreement for Non-Commercial Use.
+This project, however, uses a publicly distributed subset under MIT License.

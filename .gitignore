@@ -2,6 +2,12 @@
 __pycache__/
 .ipynb_checkpoints/
 data/*
+data/*.tsv
+data/*.jsonl
+data/*.parquet
+!data/wikimedia_pageviews_sample.csv
+!msmarco_queries_showcase.csv
+!data/google_trends_sample.csv
 secrets.json
 *.pyc
 models/*
